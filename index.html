@@ -13,8 +13,48 @@
     <title>Web Dev Portfolio 2025</title>
   </head>
   <body>
-    <h1><i class="fas fa-star"></i>Bootstrap/Sass Starter</h1>
-    <button class="btn btn-primary">submit</button>
+    <!--navbar-->
+    <nav
+      class="navbar bg-dark navbar-expand-lg sticky-top navbar-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-transparent.png" alt="" width="60" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto text-uppercase fw-bold">
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-4" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-4" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-primary text-uppercase fw-bold text-light px-4 mx-4"
+                href="#"
+                role="button"
+                style="--bs-btn-padding-y: 0.5rem"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

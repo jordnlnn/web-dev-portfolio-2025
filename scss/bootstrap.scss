@@ -1,6 +1,10 @@
 //EDIT/ADD VARIABLES TO THIS FILE
 
-// darker orange #FF6347
-// yellow #FFC04A
+//font
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+//colors
+$primary: #ff6347;
+$secondary: #ffc04a;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
